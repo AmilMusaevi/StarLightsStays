@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -14,19 +16,15 @@ const Header = () => {
         <nav className={styles.header_nav}>
           <ul className={styles.header_nav_menu}>
             <li className={styles.header_nav_menu_item}>
-              {/* <Link></Link> */}
-              Home
+           <Link href={"/"}>   Home</Link>
             </li>
             <li className={styles.header_nav_menu_item}>
-              {/* <Link></Link> */}
-              Hotels
+              <Link href={"#facilites"}>Facilities</Link>
             </li>
             <li className={styles.header_nav_menu_item}>
-              {/* <Link></Link> */}
               Why Us
             </li>
             <li className={styles.header_nav_menu_item}>
-              {/* <Link></Link> */}
               Contacts
             </li>
           </ul>

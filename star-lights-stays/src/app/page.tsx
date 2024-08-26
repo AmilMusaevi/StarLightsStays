@@ -1,12 +1,10 @@
-import { HomePage, Hotels, WhyUs, Contacts } from "./sections";
+import { HomePage, Facilities } from "./sections";
 
 export default function Home() {
   return (
     <main>
       <HomePage />
-      <Hotels />
-      <WhyUs />
-      <Contacts />
+      <Facilities />
     </main>
   );
 }
